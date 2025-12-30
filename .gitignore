@@ -1,0 +1,15 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+.env.local
+.env.development
+.env.production
+.env.test
+cam_result/
+# Dependencies
+node_modules
+cached_pdfs/
+# Other sensitive files
+secret.js
+init-user.js
